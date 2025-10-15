@@ -90,14 +90,10 @@ wc ./ragtest/input/book.txt
 ### Configure .env using your preferred Cloud Shell text editor
 
 ```bash
-# Edit .env file
-vi ragtest/.env # or code ragtest/.env
+## Copy the following command, change <your_api_key> to be your key from AI Foundry, and run it in its entirety.
 
-```
-
-```text
-# Add your Azure OpenAI API key from AI Foundry
-GRAPHRAG_API_KEY=<your_api_key>
+sed -i '/^GRAPHRAG_API_KEY=/d' ragtest/.env \
+  && echo "GRAPHRAG_API_KEY=<your_api_key>" >> ragtest/.env
 ```
 
 ### Update settings.yaml
