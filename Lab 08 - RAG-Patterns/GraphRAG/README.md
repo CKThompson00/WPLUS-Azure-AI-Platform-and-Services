@@ -54,6 +54,7 @@ source venv/bin/activate
 
 # Install GraphRAG
 pip install graphrag
+
 ```
 
 ## Initialize and Explore GraphRAG Workspace
@@ -66,6 +67,7 @@ graphrag init --root ragtest
 
 # List files
 find  ./ragtest
+
 ```
 
 Expected files:
@@ -82,6 +84,7 @@ curl -L https://aka.ms/dickens/xmas -o ./ragtest/input/book.txt
 
 # Verify download
 wc ./ragtest/input/book.txt
+
 ```
 
 ### Configure .env
