@@ -98,26 +98,26 @@ sed -i '/^GRAPHRAG_API_KEY=/d' ragtest/.env \
 
 ### Update settings.yaml
 
-```yaml
+1. Copy, update (with Azure OpenAI endpoint instance), and execute the following command in Cloud Shell.
 
-llm:
-  type: azure_openai_chat
-  model: gpt-4o-mini
-  api_base: https://<instance>.openai.azure.com
-  api_version: 2024-02-15-preview
-  deployment_name: gpt-4o-mini
+```bash
+export AZURE_OPENAI_ENDPOINT=<instance>.openai.azure.com
+```
 
-embeddings:
-  type: azure_openai_chat
-  model: text-embedding-ada-002
-  api_base: https://<instance>.openai.azure.com
-  api_version: 2024-02-15-preview
-  deployment_name: text-embedding-ada-002
+2. Then run the following
 
-snapshots:
-  graphml: true
+```bash
+
+sed -i  \
+  -e 's/model_provider: openai/model_provider: azure_openai/g' \
+  -e 's/model: gpt-4-turbo-preview/model: gpt-4o-mini/' \
+  -e 's/# api_base: https:\/\/<instance>\.openai\.azure\.com/api_base: https:\/\/$AZURE_OPENAI_ENDPOINT\//g' \
+  -e 's/# api_version: 2024-05-01-preview/api_version: 2024-05-01-preview/g' \
+  -e 's/graphml: false/graphml: true/' \
+  settings.yaml
 
 ```
+
 
 ### Run first index
 
