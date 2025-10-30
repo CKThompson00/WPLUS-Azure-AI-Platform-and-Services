@@ -2,16 +2,16 @@
 
 ## Lab 00 - Pre-requisites
 
-[01 - Create Azure Foundry Project](../Lab%2000%20-%20Prequisite%20-%20AI%20Foundry%20Resource%20Creation/01-Create-Azure-Foundry-Project.md)
-[02 - Deploy Models](../Lab%2000%20-%20Prequisite%20-%20AI%20Foundry%20Resource%20Creation/02-Deploy-Models.md)
-[03 - Connect to Bing Resource](../Lab%2000%20-%20Prequisite%20-%20AI%20Foundry%20Resource%20Creation/03-Connect-to-Bing-Resources.md)
-[04 - Connect to Azure AI Search](../Lab%2000%20-%20Prequisite%20-%20AI%20Foundry%20Resource%20Creation/04-Connect-to-Azure-AI-Search.md)
-[05 - Setup - (dot)env file](../Lab%2000%20-%20Prequisite%20-%20AI%20Foundry%20Resource%20Creation/05-Setup-(dot)env-file.md)
-[06 - Run requirements](../Lab%2000%20-%20Prequisite%20-%20AI%20Foundry%20Resource%20Creation/06-Run-requirements.md)
+### [01 - Create Azure Foundry Project](../Lab%2000%20-%20Prequisite%20-%20AI%20Foundry%20Resource%20Creation/01-Create-Azure-Foundry-Project.md)
+### [02 - Deploy Models](../Lab%2000%20-%20Prequisite%20-%20AI%20Foundry%20Resource%20Creation/02-Deploy-Models.md)
+### [03 - Connect to Bing Resource](../Lab%2000%20-%20Prequisite%20-%20AI%20Foundry%20Resource%20Creation/03-Connect-to-Bing-Resources.md)
+### [04 - Connect to Azure AI Search](../Lab%2000%20-%20Prequisite%20-%20AI%20Foundry%20Resource%20Creation/04-Connect-to-Azure-AI-Search.md)
+### [05 - Setup - (dot)env file](../Lab%2000%20-%20Prequisite%20-%20AI%20Foundry%20Resource%20Creation/05-Setup-(dot)env-file.md)
+### [06 - Run requirements](../Lab%2000%20-%20Prequisite%20-%20AI%20Foundry%20Resource%20Creation/06-Run-requirements.md)
 
 ## Lab 01 - AI Foundry
-[Connection with AOAI](../Lab%2001%20-%20AI-Foundry/Labs/Connection%20with%20AOAI/README.md)
-[Evaluations](../Lab%2001%20-%20AI-Foundry/Labs/Evaluations/README.md)
+### [Connection with AOAI](../Lab%2001%20-%20AI-Foundry/Labs/Connection%20with%20AOAI/README.md)
+### [Evaluations](../Lab%2001%20-%20AI-Foundry/Labs/Evaluations/README.md)
 
 ## Lab 02 - Agents
 [Agents Lab](../Lab%2002%20-%20Agents/README.md)
@@ -38,6 +38,6 @@
 [Graph RAG](../Lab%2009%20-%20Security/README.md)
 
 ## Lab 10 - Vector DB
-[Cosmos DB](../Lab%2010%20-%20Vector-DB/Cosmos%20DB/Readme.md)
-[PostGreSQL DB](../Lab%2010%20-%20Vector-DB/PostgreSQL/Readme.md)
-[SQL DB](../Lab%2010%20-%20Vector-DB/SQL/Readme.md)
+### [Cosmos DB](../Lab%2010%20-%20Vector-DB/Cosmos%20DB/Readme.md)
+### [PostGreSQL DB](../Lab%2010%20-%20Vector-DB/PostgreSQL/Readme.md)
+### [SQL DB](../Lab%2010%20-%20Vector-DB/SQL/Readme.md)
