@@ -53,7 +53,7 @@ For advanced/bonus content, you can use these Logic Apps to create AI agents.
 ## Create an Azure AI Foundry Project (if you did not create one in the pre-requisites lab) and Access Language API Key
 
 1. Login to Azure AI Foundry: https://ai.azure.com/. 
-2. Click **+Create new** and then Azure AI Foundry resource  
+2. Click **+Create new** and then Azure AI Foundry resource. Give a name for the Azure AI Foundry resource. Please use this name as the lab environment will not let you use another name - +++**ai-foundry-@lab.LabInstance.Id**+++ (eg ai-foundry-53439517).
    _Note: See “Prequisite - AI Foundry Resource Creation” folder to ensure Foundry Hub is correctly set up._
    If it has been set up and the project is created, please skip to - **Create a PII Redaction Logic App** step in this lab.
    
@@ -79,7 +79,7 @@ This Logic App receives text input and outputs the text with PII redacted. It cr
 
 1. In https://portal.azure.com/, navigate to **+ Create a resource** and search for _Logic App_, then click **Add**. 
 2. Under plan, choose **Multi-tenant** under Consumption, then click **Select**.
-3. Select the same Resource Group as your AI Foundry project and follow the prompts to create a Logic App resource. ![Alt text](./Images/CreateLogicApp.png)
+3. Select the same Resource Group as your AI Foundry project and follow the prompts to create a Logic App resource. For name for the Azure Logic App resource. Please use this name as the lab environment will not let you use another name - +++**logiapp1-@lab.LabInstance.Id**+++ (eg logiapp1-53439517).![Alt text](./Images/CreateLogicApp.png). 
 4. Once provisioned, select **Go to Resource** in the Azure Portal to open the new Logic App.
 5. Expand Development tools and open **Logic App Designer**. Select **Add a trigger**.
 
@@ -221,7 +221,7 @@ Insert:
 
 This Logic App receives text, detects the language, and outputs the text in English.
 
-1. In https://portal.azure.com/, search for _Logic Apps_ and select the option.
+1. In https://portal.azure.com/, search for _Logic Apps_ and select the option. For name for the Azure Logic App resource. Please use this name as the lab environment will not let you use another name - +++**logiapp2-@lab.LabInstance.Id**+++ (eg logiapp2-53439517).
 
 ![Alt text](./Images/LogicApp.png)
 
